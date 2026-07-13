@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "gravitylens:item/gravity_lens"
+  }
+}

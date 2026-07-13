@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "gravitylens",
+  "version": "${version}",
+  "name": "Gravity Lens",
+  "description": "A throwable, retrievable lens that projects a redstone-tunable spherical gravity field, additively bending the velocity of entities and projectiles without altering terrain.",
+  "authors": [
+    "Mixery"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/gravitylens/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.example.mod.GravityLensMod"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.example.mod.client.GravityLensClient"
+      }
+    ]
+  },
+  "mixins": [
+    "gravitylens.mixins.json",
+    {
+      "config": "gravitylens.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13.12+kotlin.2.4.0"
+  }
+}

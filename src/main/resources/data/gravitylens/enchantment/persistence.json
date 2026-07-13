@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.gravitylens.persistence"
+  },
+  "supported_items": "#gravitylens:gravity_lens_enchantable",
+  "weight": 5,
+  "max_level": 4,
+  "min_cost": {
+    "base": 6,
+    "per_level_above_first": 7
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 7
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ]
+}
