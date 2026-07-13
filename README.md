@@ -52,7 +52,7 @@ The mod jar is produced at `build/libs/Gravity-Lens.26.2.jar`. Run the physics t
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Licensed under the **BSD 4-Clause License** — see [LICENSE](LICENSE).
 
 ---
 
